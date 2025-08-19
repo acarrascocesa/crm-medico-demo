@@ -46,8 +46,8 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex">
-      {/* Left Panel - Green Background with Graphics */}
-      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-b from-green-500 to-green-700 relative overflow-hidden">
+      {/* Left Panel - Indigo Background with Graphics */}
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-b from-[#eef2ff] to-[#c7d2fe] relative overflow-hidden">
         {/* Grid Pattern Background */}
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{
@@ -60,16 +60,16 @@ export default function LoginPage() {
         </div>
 
         {/* Abstract Wavy Shapes */}
-        <div className="absolute top-20 left-10 w-32 h-32 bg-green-300/30 rounded-full blur-xl"></div>
-        <div className="absolute top-40 right-20 w-24 h-24 bg-green-200/40 rounded-full blur-lg"></div>
-        <div className="absolute bottom-20 left-1/4 w-40 h-40 bg-green-300/20 rounded-full blur-2xl"></div>
-        <div className="absolute bottom-40 right-1/3 w-28 h-28 bg-green-200/30 rounded-full blur-lg"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 bg-indigo-300/30 rounded-full blur-xl"></div>
+        <div className="absolute top-40 right-20 w-24 h-24 bg-indigo-200/40 rounded-full blur-lg"></div>
+        <div className="absolute bottom-20 left-1/4 w-40 h-40 bg-indigo-300/20 rounded-full blur-2xl"></div>
+        <div className="absolute bottom-40 right-1/3 w-28 h-28 bg-indigo-200/30 rounded-full blur-lg"></div>
 
         {/* Data Visualization Circles */}
-        <div className="absolute top-32 left-1/3 w-4 h-4 bg-green-200/60 rounded-full"></div>
-        <div className="absolute top-48 right-1/4 w-6 h-6 bg-green-200/50 rounded-full"></div>
-        <div className="absolute bottom-32 left-1/2 w-3 h-3 bg-green-200/70 rounded-full"></div>
-        <div className="absolute bottom-48 right-1/3 w-5 h-5 bg-green-200/40 rounded-full"></div>
+        <div className="absolute top-32 left-1/3 w-4 h-4 bg-indigo-200/60 rounded-full"></div>
+        <div className="absolute top-48 right-1/4 w-6 h-6 bg-indigo-200/50 rounded-full"></div>
+        <div className="absolute bottom-32 left-1/2 w-3 h-3 bg-indigo-200/70 rounded-full"></div>
+        <div className="absolute bottom-48 right-1/3 w-5 h-5 bg-indigo-200/40 rounded-full"></div>
 
         {/* Dashed Lines connecting circles */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none">
@@ -93,7 +93,7 @@ export default function LoginPage() {
             </div>
             
             <div className="max-w-md">
-              <p className="text-green-100 leading-relaxed">
+              <p className="text-gray-800 leading-relaxed font-medium">
                 Sistema de gestión médica integral para demostración. 
                 Explora todas las funcionalidades de gestión de pacientes, 
                 citas, historias clínicas y más.
@@ -107,8 +107,8 @@ export default function LoginPage() {
                   <Image src="/doctor-avatar.png" alt="Dr. Carlos" width={32} height={32} className="rounded-full" />
                 </div>
                 <div>
-                  <p className="font-semibold">Dr. Carlos Manuel Rodríguez</p>
-                  <p className="text-green-100 text-sm">Medicina General</p>
+                  <p className="font-semibold text-gray-800">Dr. Carlos Manuel Rodríguez</p>
+                  <p className="text-gray-600 text-sm">Medicina General</p>
                 </div>
               </div>
               
@@ -117,8 +117,8 @@ export default function LoginPage() {
                   <Image src="/serene-woman.png" alt="Dra. Ana" width={32} height={32} className="rounded-full" />
                 </div>
                 <div>
-                  <p className="font-semibold">Dra. Ana Sofía Martínez</p>
-                  <p className="text-green-100 text-sm">Cardiología</p>
+                  <p className="font-semibold text-gray-800">Dra. Ana Sofía Martínez</p>
+                  <p className="text-gray-600 text-sm">Cardiología</p>
                 </div>
               </div>
               
@@ -127,8 +127,8 @@ export default function LoginPage() {
                   <Image src="/placeholder-user.jpg" alt="Admin" width={32} height={32} className="rounded-full" />
                 </div>
                 <div>
-                  <p className="font-semibold">Administrador Sistema</p>
-                  <p className="text-green-100 text-sm">Vista Multiclínica</p>
+                  <p className="font-semibold text-gray-800">Administrador Sistema</p>
+                  <p className="text-gray-600 text-sm">Vista Multiclínica</p>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function LoginPage() {
                      {/* Mobile Branding */}
            <div className="lg:hidden text-center mb-8">
              <div className="flex items-center justify-center space-x-3 mb-4">
-               <span className="text-green-600 font-semibold text-lg">MEDICRM DEMO</span>
+               <span className="text-indigo-600 font-semibold text-lg">MEDICRM DEMO</span>
              </div>
            </div>
 
@@ -161,7 +161,7 @@ export default function LoginPage() {
                  Correo Electrónico
                </Label>
               <div className="relative">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-green-600 rounded-l-lg"></div>
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-indigo-600 rounded-l-lg"></div>
                 <Input
                   id="email"
                   type="email"
@@ -172,7 +172,7 @@ export default function LoginPage() {
                   autoComplete="email"
                   inputMode="email"
                   aria-invalid={!!error}
-                  className="h-12 pl-6 pr-4 border border-gray-300 rounded-lg focus:border-green-500 focus:ring-2 focus:ring-green-500/20 transition-all duration-200"
+                  className="h-12 pl-6 pr-4 border border-gray-300 rounded-lg focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all duration-200"
                   required
                 />
               </div>
@@ -183,7 +183,7 @@ export default function LoginPage() {
                  Contraseña
                </Label>
               <div className="relative">
-                <div className="absolute left-0 top-0 bottom-0 w-1 bg-green-600 rounded-l-lg"></div>
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-indigo-600 rounded-l-lg"></div>
                 <Input
                   id="password"
                   type={showPassword ? "text" : "password"}
@@ -198,7 +198,7 @@ export default function LoginPage() {
                   name="password"
                   autoComplete="current-password"
                   aria-invalid={!!error}
-                  className="h-12 pl-6 pr-12 border border-gray-300 rounded-lg focus:border-green-500 focus:ring-2 focus:ring-green-500/20 transition-all duration-200"
+                  className="h-12 pl-6 pr-12 border border-gray-300 rounded-lg focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all duration-200"
                   required
                 />
                 <Button
@@ -231,7 +231,7 @@ export default function LoginPage() {
               <label className="flex items-center gap-2 text-sm text-gray-700 select-none cursor-pointer group">
                 <input
                   type="checkbox"
-                  className="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500 focus:ring-2 focus:ring-offset-0 transition-colors"
+                  className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500 focus:ring-2 focus:ring-offset-0 transition-colors"
                   checked={rememberMe}
                   onChange={(e) => setRememberMe(e.target.checked)}
                 />
@@ -239,7 +239,7 @@ export default function LoginPage() {
               </label>
                              <Link 
                  href="/auth/forgot-password" 
-                 className="text-sm text-green-600 hover:text-green-700 font-medium hover:underline transition-colors"
+                 className="text-sm text-indigo-600 hover:text-indigo-700 font-medium hover:underline transition-colors"
                >
                  ¿Olvidaste tu contraseña?
                </Link>
@@ -256,7 +256,7 @@ export default function LoginPage() {
 
             <Button
               type="submit"
-              className="w-full h-12 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 motion-reduce:transform-none motion-reduce:transition-none disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+              className="w-full h-12 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-200 motion-reduce:transform-none motion-reduce:transition-none disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               disabled={isLoading}
             >
               {isLoading ? (
@@ -271,9 +271,9 @@ export default function LoginPage() {
           </form>
 
           {/* Demo Credentials */}
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mt-6">
-            <h3 className="text-sm font-semibold text-green-800 mb-2">Credenciales Demo:</h3>
-            <div className="space-y-2 text-xs text-green-700">
+          <div className="bg-indigo-50 border border-indigo-200 rounded-lg p-4 mt-6">
+            <h3 className="text-sm font-semibold text-indigo-800 mb-2">Credenciales Demo:</h3>
+            <div className="space-y-2 text-xs text-indigo-700">
               <div><strong>Médico:</strong> carlos.rodriguez@demo.com / demo123</div>
               <div><strong>Cardióloga:</strong> ana.martinez@demo.com / demo123</div>
               <div><strong>Admin:</strong> admin@demo.com / demo123</div>
