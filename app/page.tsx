@@ -25,7 +25,7 @@ export default function HomePage() {
         <div className="mb-4">
           <Loader2 className="h-8 w-8 animate-spin mx-auto text-blue-600" />
         </div>
-        <h2 className="text-xl font-semibold text-gray-700 mb-2">MediCRM Demo</h2>
+        <h2 className="text-xl font-semibold text-gray-700 mb-2">HSaludPro-360</h2>
         <p className="text-gray-500">Cargando sistema médico...</p>
       </div>
     </div>

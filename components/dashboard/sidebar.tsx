@@ -136,7 +136,7 @@ function SidebarContent({ isCollapsed, isMobile = false, onNavigate, toggleColla
           </div>
           {(!isCollapsed || isMobile) && (
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-gray-800 leading-tight">CardioAlergix</span>
+              <span className="text-lg font-bold text-gray-800 leading-tight">HSaludPro</span>
               <span className="text-xs text-gray-500 font-medium">Sistema Médico</span>
             </div>
           )}

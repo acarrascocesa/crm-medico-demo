@@ -9,8 +9,8 @@ import { ConfigProvider } from "@/context/config-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MediCRM Demo - Sistema de Gestión Médica",
-  description: "Demo del sistema de gestión integral para clínicas médicas",
+  title: "HSaludPro-360 - Sistema de Gestión Médica",
+  description: "Sistema de gestión integral para clínicas médicas",
   generator: 'Next.js',
   icons: {
     icon: [

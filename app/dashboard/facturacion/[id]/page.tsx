@@ -359,7 +359,7 @@ export default function InvoiceDetailsPage({ params }: { params: Promise<{ id: s
           </div>
           
           <div class="footer">
-            <p>Esta factura fue generada automáticamente por el sistema CardioAlergix CRM</p>
+            <p>Esta factura fue generada automáticamente por el sistema HSaludPro-360</p>
           </div>
         </div>
       </body>

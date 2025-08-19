@@ -24,7 +24,7 @@ interface ConfigProviderProps {
 
 export function ConfigProvider({ children }: ConfigProviderProps) {
   const [settings, setSettings] = useState<ConfigSettings>({
-    clinicName: "CardioAlergix CRM",
+    clinicName: "HSaludPro-360",
     timezone: "America/Santo_Domingo",
     language: "es"
   })

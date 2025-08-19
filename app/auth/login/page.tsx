@@ -82,13 +82,13 @@ export default function LoginPage() {
          <div className="relative z-10 flex flex-col justify-center h-full px-12 pl-24 text-white">
                      {/* Branding */}
            <div className="absolute top-8 left-8 flex items-center space-x-3">
-             <span className="text-white font-semibold text-lg">MEDICRM DEMO</span>
+             <span className="text-white font-semibold text-lg">HSaludPro-360</span>
            </div>
 
           {/* Welcome Message */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-5xl font-bold mb-4">MEDICRM DEMO</h1>
+              <h1 className="text-5xl font-bold mb-4">HSaludPro-360</h1>
               <div className="w-16 h-1 bg-white rounded-full"></div>
             </div>
             
@@ -142,7 +142,7 @@ export default function LoginPage() {
                      {/* Mobile Branding */}
            <div className="lg:hidden text-center mb-8">
              <div className="flex items-center justify-center space-x-3 mb-4">
-               <span className="text-indigo-600 font-semibold text-lg">MEDICRM DEMO</span>
+               <span className="text-indigo-600 font-semibold text-lg">HSaludPro-360</span>
              </div>
            </div>
 

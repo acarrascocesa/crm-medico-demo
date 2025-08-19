@@ -41,7 +41,7 @@ export default function RegisterPage() {
               <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
                 <Users className="h-8 w-8 text-blue-600 mx-auto mb-2" />
                 <p className="text-sm text-blue-800 font-medium">
-                  CardioAlergix CRM es un sistema profesional con acceso controlado
+                  HSaludPro-360 es un sistema profesional con acceso controlado
                 </p>
               </div>
 
