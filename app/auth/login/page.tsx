@@ -88,7 +88,7 @@ export default function LoginPage() {
           {/* Welcome Message */}
           <div className="space-y-6">
             <div>
-              <h1 className="text-5xl font-bold mb-4">HSaludPro-360</h1>
+              <h1 className="text-5xl text-gray-800 font-bold mb-4">HSaludPro-360</h1>
               <div className="w-16 h-1 bg-white rounded-full"></div>
             </div>
             
