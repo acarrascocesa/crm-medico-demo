@@ -1,0 +1,24 @@
+import { type ClassValue, clsx } from "clsx"
+import { twMerge } from "tailwind-merge"
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+
+/**
+ * Formatea una fecha a formato YYYY-MM-DD sin problemas de zona horaria
+ * @param date - La fecha a formatear
+ * @returns String en formato YYYY-MM-DD
+ */
+export function formatDateToISO(date: Date): string {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+}
+
+/**
+ * Formatea la fecha actual a formato YYYY-MM-DD sin problemas de zona horaria
+ * @returns String en formato YYYY-MM-DD
+ */
+export function getCurrentDateISO(): string {
+  const date = new Date()
+  return formatDateToISO(date)
+}
